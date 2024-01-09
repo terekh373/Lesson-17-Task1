@@ -13,4 +13,13 @@ int main()
 	{
 		arr[i].show();
 	}
+
+	cout << "Компьютеры с ОЗУ больше 10 Гб:\n";
+	for (int i = 0; i < arr.size(); i++)
+	{
+		if (arr[i].getRam() > 10)
+		{
+			arr[i].show();
+		}
+	}
 }
