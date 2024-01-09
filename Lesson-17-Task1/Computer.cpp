@@ -17,8 +17,8 @@ int Computer::getRam() const
 void Computer::show() const
 {
 	cout << "Name: " << name << endl;
-	cout << "Frequency: " << frequency << "GHz" << endl;
-	cout << "RAM: " << ram << "Gb" << endl;
+	cout << "Frequency: " << frequency << " GHz" << endl;
+	cout << "RAM: " << ram << " Gb" << endl;
 	cout << "DVD: " << dvd << endl;
-	cout << "Cost: " << cost << "UAH" << endl;
+	cout << "Cost: " << cost << " UAH" << endl << endl;
 }
