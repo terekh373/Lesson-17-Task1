@@ -14,7 +14,7 @@ int main()
 		arr[i].show();
 	}
 
-	cout << "Компьютеры с ОЗУ больше 10 Гб:\n";
+	cout << "PCs with RAM more than 10:\n";
 	for (int i = 0; i < arr.size(); i++)
 	{
 		if (arr[i].getRam() > 10)
